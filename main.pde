@@ -117,7 +117,6 @@ void maintainConnection() {
         connectToBroker();
         if (client.connected()) {
           subscribeToTopic("/lights");
-          subscribeToTopic("/derp");
         }
       }
     }
